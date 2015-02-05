@@ -17,8 +17,7 @@ class Seguridad
 
 	function __construct()
 	{	
-		//$this->objConexion = new MySQL_Datos("localhost","maco_web","root","root");		
-		$this->objConexion = new MySQL_Datos("localhost","maccomx_web","maccomx_usr01","hhP1T@Cu#q]m");		
+		$this->objConexion = new MySQL_Datos("localhost","demo_web","root","root");			
 		$this->objConexion->connectaMySQL();		
 		$this->objConexion->seleccionaBD();			
 	}

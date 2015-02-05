@@ -1,0 +1,28 @@
+/**
+ *
+ * Apply Here your Custom CSS
+ *
+*/
+
+body {
+	
+}
+.enfila{
+	width: 150px;
+	float: left;
+}
+.input-serv{
+	width: 45px;
+	display: none;
+}
+.input-serv-2{
+	width: 45px;
+}
+.descripcion textarea{
+	max-width: 500px;
+	max-height: 200px
+}
+#mapCanvas{
+	margin-top:20px;
+	height: 500px;
+}

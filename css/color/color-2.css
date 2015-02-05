@@ -1,0 +1,16 @@
+.nav-tabs>li>a:hover, .pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus, .pagination-2 > li > a:hover, .pagination-2 > li > span:hover, .pagination-2 > li > a:focus, .pagination-2 > li > span:focus, .btn-promo-box-2:hover, .btn-promo-box-2:focus, .btn-promo-box-2:active, .btn-promo-box-2.active, .testimonal h5, .panel-default>.panel-heading .panel-title>a.collapsed:hover, a.team-name:hover, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, a:hover, a:active, a:focus, a.blog-post-title:hover, a.blog-post-title:focus, a.blog-post-title:active, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .error, .project-detail-pagging a:hover i, .project-detail a, .filter li a:hover, .panel-default-2>.panel-heading-2 .panel-title-2>a.collapsed:hover, h3, h5, .team-function, .navbar-default .navbar-nav>li.move>a i, .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus, .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus, .panel-title>a, #loading i {
+  color:#E55D5D;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary, .btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .open .dropdown-toggle.btn-warning, .btn-danger, .progress-bar, .promo-box-2, .btn-parallax:hover, .btn-parallax:focus, .btn-parallax:active, .btn-parallax.active, .back-to-top:hover, .cbp-l-filters-button .cbp-filter-counter, .cbp-l-caption-buttonLeft, .cbp-l-caption-buttonRight, .cbp-l-caption-buttonLeft:hover, .cbp-l-caption-buttonRight:hover, .btn-inverted  {
+  background-color:#E55D5D;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary, .btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .open .dropdown-toggle.btn-warning, .btn-danger, .btn-parallax:hover, .btn-parallax:focus, .btn-parallax:active, .btn-parallax.active, .testimonal-slider .flex-control-paging li a:hover, .btn-inverted, .content-slider .flex-control-paging li a:hover, .form-control:focus, .form-control:hover
+{
+  border-color:#E55D5D;
+}
+
+.cbp-l-filters-button .cbp-filter-counter:before {
+  border-top-color:#E55D5D; 
+}

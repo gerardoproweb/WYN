@@ -7,12 +7,9 @@ class DataBase{
 	
 	function __construct(){
 		$this->Maquina="localhost";
-		/*$this->Usuario="root";
+		$this->Usuario="root";
 		$this->Pass="root";
-		$this->BD="maco_web";*/
-		$this->Usuario="maccomx_usr01";
-		$this->Pass="hhP1T@Cu#q]m";
-		$this->BD="maccomx_web";
+		$this->BD="maco_web";
 		global $conectado;
 		$this->conexion = mysql_connect($this->Maquina,$this->Usuario,$this->Pass,$this->BD);
 		mysql_select_db($this->BD, $this->conexion);

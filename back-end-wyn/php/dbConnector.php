@@ -9,11 +9,9 @@ function DbConnector(){
 
         // Get the main settings from the array we just loaded
         $host = 'localhost';
-        $db = 'casabela_web';
-        /*$user = 'root';
-        $pass = 'root';*/
-        $user = 'casabela_usr1';
-        $pass = '!6LXiK0So5NZ';
+        $db = 'demo_web';
+        $user = 'root';
+        $pass = 'root';
 
         // Connect to the database
         $this->link = mysql_connect($host, $user, $pass);

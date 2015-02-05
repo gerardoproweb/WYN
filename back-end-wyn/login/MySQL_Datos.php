@@ -13,7 +13,7 @@
 
 class MySQL_Datos  {
 	private $strHost = "localhost";
-	private $strBD = "maco_web";
+	private $strBD = "demo_web";
 	private $strUserName = "root";
 	private $strPassword = "root";
 	private $strQuery;

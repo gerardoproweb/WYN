@@ -2,7 +2,7 @@
 
 /**
  * Clase que permite el Acceso a Datos con el motor de MYSQL
- * @author Hugo Diego LÛpez MartÌnez
+ * @author Hugo Diego L√≥pez Mart√≠nez
  * @version 1.0
  * @copyright HDLM2010
  * @package SCAB
@@ -13,12 +13,9 @@
 
 class MySQL_Datos  {
 	private $strHost = "localhost";
-	/*private $strBD = "maco_web";
+	private $strBD = "maco_web";
 	private $strUserName = "root";
-	private $strPassword = "root";*/
-	private $strBD = "maccomx_web";
-	private $strUserName = "maccomx_usr01";
-	private $strPassword = "hhP1T@Cu#q]m";
+	private $strPassword = "root";
 	private $strQuery;
 	private $ligaMySQL;
 	private $setResultados;	
@@ -47,7 +44,7 @@ class MySQL_Datos  {
 		if ($this->ligaMySQL){
 			try {
 			mysql_close($this->ligaMySQL);	
-			//echo "MandÛ al chicle la conexiÛn";
+			//echo "Mand√≥ al chicle la conexi√≥n";
 			}
 			catch (Exception $ex){
 				echo "Error al desconectar de la BD.: ".$ex->getMessage();
@@ -68,7 +65,7 @@ class MySQL_Datos  {
 	}
 	
 	/**
-	 * MÈtodo que permite establecer una conexiÛn concurrente con la base de datos
+	 * M√©todo que permite establecer una conexi√≥n concurrente con la base de datos
 	 * @param null
 	 * @return void 
 	 * 
@@ -88,7 +85,7 @@ class MySQL_Datos  {
 	}
 	
 	/**
-	 * MÈtodo que permite seleccionar la Base de Datos que ser· utilizada.
+	 * M√©todo que permite seleccionar la Base de Datos que ser√° utilizada.
 	 * Es el equivalente en SQL a utilizar use database.
 	 *
 	 */
@@ -103,7 +100,7 @@ class MySQL_Datos  {
 	}
 	
 	/**
-	 * Permite liberar la conexiÛn a la base de datos
+	 * Permite liberar la conexi√≥n a la base de datos
 	 *
 	 */
 	public function desconectaMySQL() {
@@ -145,7 +142,7 @@ class MySQL_Datos  {
 	}
 	
 	/**
-	 * Permite determinar si la consulta arrojÛ registros
+	 * Permite determinar si la consulta arroj√≥ registros
 	 *
 	 * @return bool
 	 */
